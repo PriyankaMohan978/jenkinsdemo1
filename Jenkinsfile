@@ -11,7 +11,7 @@ pipeline {
         stage('Extract Data'){
             steps{
 
-                bat "python extract.py"
+                bat "C:\\Users\\priya\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
             }
         }
     }
